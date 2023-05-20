@@ -97,7 +97,7 @@ footer > p {
 
     form > label {
         align-self: start;
-        padding-left: 3rem;
+        padding-left: 0.5rem;
     }
 
     form > input {

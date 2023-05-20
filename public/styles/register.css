@@ -5,7 +5,7 @@
 
 header {
     background-color: #74abaf;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .container-h1 {
@@ -23,7 +23,7 @@ h1 {
     background-color: rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: center;
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
     height: 100%;
     width: 100%;
@@ -32,7 +32,7 @@ h1 {
 form {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 0 1rem;
     justify-content: center;
     align-items: center;
 }
@@ -97,7 +97,7 @@ footer > p {
 
     form > label {
         align-self: start;
-        padding-left: 3rem;
+        padding-left: 0.5rem;
     }
 
     form > input {
