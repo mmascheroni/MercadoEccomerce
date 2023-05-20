@@ -49,7 +49,7 @@ form > label {
 form > input {
     border: 0.2rem solid rgba(99, 97, 97, 0.904);
     border-radius: 0.8rem;
-    margin: 0.5rem 0 1rem 1rem;
+    margin: 0.5rem 0;
     padding: 1rem 1.1rem;
     width: 18rem;
 }
@@ -107,6 +107,6 @@ footer > p {
 
     form > button {
         width: 15rem;
-        margin-left: 0;
+        margin: 1rem 0;
     }
 }
