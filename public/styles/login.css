@@ -4,7 +4,7 @@
 }
 
 header {
-    background-color: #74abaf;
+    background-color: #02afbbb6;
     padding: 2rem;
 }
 
@@ -14,6 +14,7 @@ header {
 }
 
 h1 {
+    cursor: pointer;
     font-size: 1.5em;
     margin: 0;
     text-align: center;
