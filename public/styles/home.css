@@ -11,6 +11,10 @@ header {
     padding: 1.5rem;
 }
 
+.nav-hamburger {
+    display: none;
+}
+
 ul {
     margin-top: 1rem;
     padding: 0;
@@ -99,9 +103,8 @@ footer > p {
 
 .container-products--horizontal {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 1rem 4rem;
 }
 
 h3 {
@@ -123,4 +126,65 @@ h3 {
     margin: 5px;
     width: 18rem;
     height: 18rem;
+}
+
+/*--------------------------*/
+/*     Responsive Design    */
+/*--------------------------*/
+
+@media screen and (max-width: 945px) {
+    header {
+        justify-content: space-between;
+    }
+
+    .nav-perfil {
+        display: none;
+    }
+
+    .nav-hamburger {
+        display: flex;
+    }
+
+    .nav-hamburger > li {
+        margin-right: 0.5rem;
+    }
+
+    .container-products--horizontal {
+        flex-direction: column;
+    }
+
+    .div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 628px) {
+    header {
+        justify-content: space-between;
+        padding: 1.5rem 0.8rem;
+    }
+
+    .container-h1 {
+        display: none;
+    }
+
+    .nav-options {
+        display: none;
+    }
+
+    .input-search {
+        max-width: 20rem;
+        padding-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 495px) {
+    .input-search {
+        max-width: 12rem;
+        padding-left: 1rem;
+    }
+
+    .input-search::placeholder {
+        font-size: 0.8rem;
+    }
 }
