@@ -3,95 +3,8 @@
     margin: 0;
 }
 
-header {
-    background-color: #02afbbb6;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1.5rem;
-}
-
-.nav-hamburger {
-    display: none;
-}
-
-ul {
-    margin-top: 1rem;
-    padding: 0;
-}
-
-li {
-    list-style: none;
-    color: #ffffff;
-    cursor: pointer;
-    font-weight: 500;
-    display: inline-block;
-    margin-right: 1rem;
-}
-
 body {
     background-color: rgba(0, 0, 0, 0.1);
-}
-
-.container-h1 {
-    text-align: center;
-}
-
-h1 {
-    cursor: pointer;
-    font-size: 1.5em;
-    margin: 0;
-    text-align: center;
-}
-
-input {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
-}
-
-.input-search {
-    border: none;
-    border-radius: 0.2rem;
-    padding: 10px 15px;
-    width: 20rem;
-    font-style: oblique;
-}
-
-.btn-search {
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-}
-
-.ul-options {
-    display: flex;
-    justify-self: end;
-    align-self: flex-end;
-}
-
-.ol-user--options {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-}
-
-.ol-user--options > li {
-    display: none;
-    margin: 0;
-    margin-top: 0.5rem;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    background-color: #ffffff;
-    height: 2rem;
-}
-
-footer > p {
-    display: flex;
-    align-items: center;
-    font-weight: bolder;
 }
 
 /*------------------------*/
@@ -133,22 +46,6 @@ h3 {
 /*--------------------------*/
 
 @media screen and (max-width: 945px) {
-    header {
-        justify-content: space-between;
-    }
-
-    .nav-perfil {
-        display: none;
-    }
-
-    .nav-hamburger {
-        display: flex;
-    }
-
-    .nav-hamburger > li {
-        margin-right: 0.5rem;
-    }
-
     .container-products--horizontal {
         flex-direction: column;
     }
@@ -159,32 +56,7 @@ h3 {
 }
 
 @media screen and (max-width: 628px) {
-    header {
-        justify-content: space-between;
-        padding: 1.5rem 0.8rem;
-    }
-
-    .container-h1 {
-        display: none;
-    }
-
-    .nav-options {
-        display: none;
-    }
-
-    .input-search {
-        max-width: 20rem;
-        padding-left: 1rem;
-    }
 }
 
 @media screen and (max-width: 495px) {
-    .input-search {
-        max-width: 12rem;
-        padding-left: 1rem;
-    }
-
-    .input-search::placeholder {
-        font-size: 0.8rem;
-    }
 }

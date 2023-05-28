@@ -1,0 +1,16 @@
+header {
+    background-color: #02afbbb6;
+    padding: 2rem;
+}
+
+.container-h1 {
+    text-align: center;
+    width: 30%;
+}
+
+h1 {
+    cursor: pointer;
+    font-size: 1.5em;
+    margin: 0;
+    text-align: center;
+}
